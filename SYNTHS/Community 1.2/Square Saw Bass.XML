@@ -27,8 +27,8 @@
 	<modKnobs>
 		<modKnob controlsParam="pan" />
 		<modKnob controlsParam="volumePostFX" />
-		<modKnob controlsParam="bass" />
-		<modKnob controlsParam="treble" />
+		<modKnob controlsParam="lpfResonance" />
+		<modKnob controlsParam="lpfFrequency" />
 		<modKnob controlsParam="env1Release" />
 		<modKnob controlsParam="env1Attack" />
 		<modKnob controlsParam="delayFeedback" />
