@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+z<?xml version='1.0' encoding='utf-8'?>
 <kit firmwareVersion="c1.2.0" earliestCompatibleFirmware="4.1.0-alpha" modFXCurrentParam="feedback" currentFilterType="lpf" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L">
 	<defaultParams reverbAmount="0x80000000" volume="0x3504F334" pan="0x00000000" sidechainCompressorShape="0xDC28F5B2" modFXDepth="0x00000000" modFXRate="0xE0000000" stutterRate="0x00000000" sampleRateReduction="0x80000000" bitCrush="0x80000000" modFXOffset="0x00000000" modFXFeedback="0x80000000" compressorThreshold="0x00000000" lpfMorph="0x80000000" hpfMorph="0x80000000" tempo="0x00000000">
 		<delay rate="0x00000000" feedback="0x80000000" />
@@ -346,7 +346,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="2-short-02" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="Nepalese bells 2-2" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/fx2-short-02.wav">
 				<zone startSamplePos="0" endSamplePos="82712" />
 			</osc1>
@@ -388,7 +388,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="3-short-02" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="Nepalese bells 3-2" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/fx3-short-02.wav">
 				<zone startSamplePos="0" endSamplePos="167769" />
 			</osc1>
@@ -430,7 +430,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="asc1" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="windchimes_asc" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="0" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/windchimes_asc1.wav">
 				<zone startSamplePos="0" endSamplePos="241967" />
 			</osc1>
@@ -472,7 +472,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="desc1" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="windchimes_desc" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="0" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/windchimes_desc1.wav">
 				<zone startSamplePos="0" endSamplePos="310598" />
 			</osc1>
@@ -976,7 +976,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="mf_1" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="cowbell mf" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/cowbell_mf_1.wav">
 				<zone startSamplePos="0" endSamplePos="19839" />
 			</osc1>
@@ -1018,7 +1018,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="ff_2" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="cowbell ff" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/cowbell_ff_2.wav">
 				<zone startSamplePos="0" endSamplePos="26945" />
 			</osc1>
@@ -1060,7 +1060,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="22" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="shaker 2" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/shake2.wav">
 				<zone startSamplePos="0" endSamplePos="8356" />
 			</osc1>
@@ -1102,7 +1102,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="8" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="shaker 8" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/shake8.wav">
 				<zone startSamplePos="0" endSamplePos="7001" />
 			</osc1>
@@ -1144,7 +1144,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="13" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="maraca 1" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/maraca1.wav">
 				<zone startSamplePos="0" endSamplePos="23293" />
 			</osc1>
@@ -1186,7 +1186,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="4" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="maraca 4" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/maraca4.wav">
 				<zone startSamplePos="0" endSamplePos="12822" />
 			</osc1>
@@ -1228,7 +1228,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="32" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="cabasa 3" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/cabasa_3.wav">
 				<zone startSamplePos="0" endSamplePos="25949" />
 			</osc1>
@@ -1270,7 +1270,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="1" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="cabasa 1" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/cabasa_1.wav">
 				<zone startSamplePos="0" endSamplePos="21207" />
 			</osc1>
@@ -1690,7 +1690,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="hit_light2" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="gong_hit_light2" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/hit_light2.wav">
 				<zone startSamplePos="0" endSamplePos="196974" />
 			</osc1>
@@ -1732,7 +1732,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="gongHit_f" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="gong_hit_f" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/gongHit_f.wav">
 				<zone startSamplePos="0" endSamplePos="652235" />
 			</osc1>
@@ -1774,7 +1774,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="Timpani1_Hit_v3_rr2_Sum" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="Timpani1_Hit" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/Timpani1_Hit_v3_rr2_Sum.wav">
 				<zone startSamplePos="0" endSamplePos="252365" />
 			</osc1>
@@ -1816,7 +1816,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="Timpani2_Hit_v4_rr1_Sum" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="Timpani2_Hit" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/Timpani2_Hit_v4_rr1_Sum.wav">
 				<zone startSamplePos="0" endSamplePos="85717" />
 			</osc1>
@@ -1858,7 +1858,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="3_Hit_v3_rr1_Sum" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="timpani3_Hit" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/Timpani3_Hit_v3_rr1_Sum.wav">
 				<zone startSamplePos="0" endSamplePos="161060" />
 			</osc1>
@@ -1900,7 +1900,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="4_Hit_v3_rr1_Sum" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="timpani4_Hit v3" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/Timpani4_Hit_v3_rr1_Sum.wav">
 				<zone startSamplePos="0" endSamplePos="119244" />
 			</osc1>
@@ -1942,7 +1942,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="4_Hit_v4_rr2_Sum" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="timpani4_Hit v4" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/Timpani4_Hit_v4_rr2_Sum.wav">
 				<zone startSamplePos="0" endSamplePos="99141" />
 			</osc1>
@@ -1984,7 +1984,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="HitN_v2_rr2_Sum" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="quinto hit v2" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/Quinto-HitN_v2_rr2_Sum.wav">
 				<zone startSamplePos="0" endSamplePos="27688" />
 			</osc1>
@@ -2026,7 +2026,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="HitN_v3_rr2_Sum" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="quinto hit v3-2" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/Quinto-HitN_v3_rr2_Sum.wav">
 				<zone startSamplePos="0" endSamplePos="31878" />
 			</osc1>
@@ -2068,7 +2068,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="HitN_v3_rr1_Sum" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="quinto hit v3-1" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/Quinto-HitN_v3_rr1_Sum.wav">
 				<zone startSamplePos="0" endSamplePos="33051" />
 			</osc1>
@@ -2110,7 +2110,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="Tap1_v1_rr2_Sum" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="quinto tap v1-2" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/Quinto-Tap1_v1_rr2_Sum.wav">
 				<zone startSamplePos="0" endSamplePos="24456" />
 			</osc1>
@@ -2152,7 +2152,7 @@
 			<sidechain attack="327244" release="936" syncLevel="6" syncType="0" />
 			<audioCompressor attack="83886080" release="83886080" thresh="0" ratio="1073741824" compHPF="0" compBlend="2147483647" />
 		</sound>
-		<sound name="Tap1_v1_rr1_Sum" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
+		<sound name="quinto tap v1-1" polyphonic="auto" voicePriority="1" mode="subtractive" modFXType="none" lpfMode="24dB" hpfMode="HPLadder" filterRoute="H2L" path="" maxVoices="8">
 			<osc1 type="sample" loopMode="1" reversed="0" timeStretchEnable="0" timeStretchAmount="0" fileName="SAMPLES/Community 1.2/VSCO Perc Kit/Quinto-Tap1_v1_rr1_Sum.wav">
 				<zone startSamplePos="0" endSamplePos="13655" />
 			</osc1>

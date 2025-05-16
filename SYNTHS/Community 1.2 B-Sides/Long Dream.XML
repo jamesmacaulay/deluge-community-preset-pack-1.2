@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sound
-	firmwareVersion="c1.2.0"
+	firmwareVersion="4.1.4-alpha"
 	earliestCompatibleFirmware="4.1.0-alpha"
 	polyphonic="poly"
 	voicePriority="1"
 	mode="subtractive"
-	modFXType="none"
 	lpfMode="24dBDrive"
 	hpfMode="HPLadder"
-	filterRoute="H2L"
-	maxVoices="8">
+	modFXType="none"
+	filterRoute="H2L">
 	<osc1
 		type="wavetable"
 		transpose="0"
@@ -21,9 +20,19 @@
 		transpose="0"
 		cents="0"
 		retrigPhase="-1" />
-	<lfo1 type="triangle" syncLevel="0" syncType="0" />
-	<lfo2 type="triangle" syncLevel="0" syncType="0" />
+	<lfo1 type="triangle" syncType="0" syncLevel="0" />
+	<lfo2 type="triangle" />
 	<unison num="1" detune="8" spread="0" />
+	<delay
+		pingPong="1"
+		analog="1"
+		syncType="0"
+		syncLevel="6" />
+	<compressor
+		syncType="0"
+		syncLevel="6"
+		attack="327244"
+		release="936" />
 	<defaultParams
 		arpeggiatorGate="0x00000000"
 		portamento="0x80000000"
@@ -37,10 +46,13 @@
 		noiseVolume="0x80000000"
 		volume="0x7FFFFFFF"
 		pan="0x00000000"
+		waveFold="0x80000000"
 		lpfFrequency="0x14000000"
 		lpfResonance="0xC4000000"
+		lpfMorph="0x80000000"
 		hpfFrequency="0xF4000000"
 		hpfResonance="0x80000000"
+		hpfMorph="0x80000000"
 		lfo1Rate="0x1999997E"
 		lfo2Rate="0xBD70A3CC"
 		modulator1Amount="0x80000000"
@@ -59,15 +71,7 @@
 		sampleRateReduction="0x80000000"
 		bitCrush="0x80000000"
 		modFXOffset="0x00000000"
-		modFXFeedback="0x00000000"
-		compressorThreshold="0x170A3D6C"
-		lpfMorph="0x80000000"
-		hpfMorph="0x80000000"
-		waveFold="0x80000000"
-		ratchetProbability="0x80000000"
-		ratchetAmount="0x80000000"
-		sequenceLength="0x80000000"
-		rhythm="0x80000000">
+		modFXFeedback="0x00000000">
 		<envelope1
 			attack="0x6666663D"
 			decay="0xE6666654"
@@ -119,12 +123,8 @@
 	<arpeggiator
 		mode="off"
 		numOctaves="2"
-		syncLevel="7"
 		syncType="0"
-		arpMode="off"
-		noteMode="up"
-		octaveMode="up"
-		mpeVelocity="off" />
+		syncLevel="7" />
 	<modKnobs>
 		<modKnob controlsParam="pan" />
 		<modKnob controlsParam="volumePostFX" />
@@ -143,21 +143,4 @@
 		<modKnob controlsParam="oscAWavetablePosition" patchAmountFromSource="lfo2" />
 		<modKnob controlsParam="oscAWavetablePosition" />
 	</modKnobs>
-	<delay
-		pingPong="1"
-		analog="1"
-		syncLevel="6"
-		syncType="0" />
-	<sidechain
-		attack="327244"
-		release="936"
-		syncLevel="6"
-		syncType="0" />
-	<audioCompressor
-		attack="83886080"
-		release="83886080"
-		thresh="386547052"
-		ratio="1073741824"
-		compHPF="0"
-		compBlend="2147483647" />
 </sound>

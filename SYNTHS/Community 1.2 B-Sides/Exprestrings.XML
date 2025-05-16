@@ -61,7 +61,7 @@
 		bitCrush="0x80000000"
 		modFXOffset="0x947AE144"
 		modFXFeedback="0x947AE144"
-		compressorThreshold="0x2E147AD9"
+		compressorThreshold="0x00000000"
 		lpfMorph="0x80000000"
 		hpfMorph="0x80000000"
 		waveFold="0xAE147AD9"
@@ -227,7 +227,7 @@
 	<audioCompressor
 		attack="83886080"
 		release="83886080"
-		thresh="773094105"
+		thresh="0"
 		ratio="1073741824"
 		compHPF="0"
 		compBlend="2147483647" />

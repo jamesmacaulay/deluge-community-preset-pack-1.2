@@ -18,102 +18,99 @@
 		timeStretchAmount="0">
 		<sampleRanges>
 			<sampleRange
-				rangeTopNote="4"
-				fileName="SAMPLES/Community 1.2/Saumur Piano/1.wav"
-				transpose="82"
-				cents="4">
+				rangeTopNote="38"
+				fileName="SAMPLES/Community 1.2/Saumur Piano/01.wav"
+				transpose="25">
 				<zone
 					startSamplePos="0"
-					endSamplePos="227134" />
+					endSamplePos="208679" />
 			</sampleRange>
 			<sampleRange
-				rangeTopNote="39"
-				fileName="SAMPLES/Community 1.2/Saumur Piano/2.wav"
-				transpose="29"
-				cents="-46">
+				rangeTopNote="45"
+				fileName="SAMPLES/Community 1.2/Saumur Piano/02.wav"
+				transpose="18">
 				<zone
 					startSamplePos="0"
-					endSamplePos="6938885" />
+					endSamplePos="208679" />
 			</sampleRange>
 			<sampleRange
-				rangeTopNote="49"
-				fileName="SAMPLES/Community 1.2/Saumur Piano/3.wav"
-				transpose="12"
-				cents="-34">
+				rangeTopNote="52"
+				fileName="SAMPLES/Community 1.2/Saumur Piano/03.wav"
+				transpose="11">
 				<zone
 					startSamplePos="0"
-					endSamplePos="266917" />
+					endSamplePos="245230" />
 			</sampleRange>
 			<sampleRange
-				rangeTopNote="53"
-				fileName="SAMPLES/Community 1.2/Saumur Piano/5.wav"
-				transpose="10"
-				cents="-32">
+				rangeTopNote="59"
+				fileName="SAMPLES/Community 1.2/Saumur Piano/04.wav"
+				transpose="4">
 				<zone
 					startSamplePos="0"
-					endSamplePos="159184" />
+					endSamplePos="162355" />
 			</sampleRange>
 			<sampleRange
-				rangeTopNote="60"
-				fileName="SAMPLES/Community 1.2/Saumur Piano/6.wav"
-				transpose="3"
-				cents="-42">
+				rangeTopNote="66"
+				fileName="SAMPLES/Community 1.2/Saumur Piano/05.wav"
+				transpose="-3">
 				<zone
 					startSamplePos="0"
-					endSamplePos="192580" />
+					endSamplePos="146250" />
 			</sampleRange>
 			<sampleRange
-				rangeTopNote="67"
-				fileName="SAMPLES/Community 1.2/Saumur Piano/7.wav"
-				transpose="-4"
-				cents="-44">
+				rangeTopNote="73"
+				fileName="SAMPLES/Community 1.2/Saumur Piano/06.wav"
+				transpose="-10">
 				<zone
 					startSamplePos="0"
-					endSamplePos="173690" />
+					endSamplePos="176933" />
 			</sampleRange>
 			<sampleRange
-				rangeTopNote="74"
-				fileName="SAMPLES/Community 1.2/Saumur Piano/8.wav"
-				transpose="-11"
-				cents="-43">
+				rangeTopNote="80"
+				fileName="SAMPLES/Community 1.2/Saumur Piano/07.wav"
+				transpose="-17">
 				<zone
 					startSamplePos="0"
-					endSamplePos="163093" />
+					endSamplePos="159578" />
 			</sampleRange>
 			<sampleRange
-				rangeTopNote="81"
-				fileName="SAMPLES/Community 1.2/Saumur Piano/9.wav"
-				transpose="-18"
-				cents="-36">
+				rangeTopNote="87"
+				fileName="SAMPLES/Community 1.2/Saumur Piano/08.wav"
+				transpose="-24">
 				<zone
 					startSamplePos="0"
-					endSamplePos="156490" />
+					endSamplePos="149842" />
 			</sampleRange>
 			<sampleRange
-				rangeTopNote="88"
+				rangeTopNote="94"
+				fileName="SAMPLES/Community 1.2/Saumur Piano/09.wav"
+				transpose="-31">
+				<zone
+					startSamplePos="0"
+					endSamplePos="143775" />
+			</sampleRange>
+			<sampleRange
+				rangeTopNote="101"
 				fileName="SAMPLES/Community 1.2/Saumur Piano/10.wav"
-				transpose="-25"
-				cents="-39">
+				transpose="-38">
 				<zone
 					startSamplePos="0"
-					endSamplePos="172461" />
+					endSamplePos="158449" />
 			</sampleRange>
 			<sampleRange
-				rangeTopNote="95"
+				rangeTopNote="108"
 				fileName="SAMPLES/Community 1.2/Saumur Piano/11.wav"
-				transpose="-32"
-				cents="-40">
+				transpose="-45">
 				<zone
 					startSamplePos="0"
-					endSamplePos="147123" />
+					endSamplePos="135169" />
 			</sampleRange>
 			<sampleRange
 				fileName="SAMPLES/Community 1.2/Saumur Piano/12.wav"
-				transpose="-39"
-				cents="-22">
+				transpose="-52">
 				<zone
 					startSamplePos="0"
-					endSamplePos="174435" />
+					endSamplePos="160262" />
 			</sampleRange>
 		</sampleRanges>
 	</osc1>
@@ -154,7 +151,7 @@
 		modFXDepth="0x00000000"
 		delayRate="0x00000000"
 		delayFeedback="0x80000000"
-		reverbAmount="0xCC000000"
+		reverbAmount="0xCCCCCCBF"
 		arpeggiatorRate="0x00000000"
 		stutterRate="0x00000000"
 		sampleRateReduction="0x80000000"
@@ -170,10 +167,10 @@
 		sequenceLength="0x80000000"
 		rhythm="0x80000000">
 		<envelope1
-			attack="0xE2000000"
+			attack="0xE147AE03"
 			decay="0xE6666654"
 			sustain="0x7FFFFFFF"
-			release="0x04000000" />
+			release="0x051EB83A" />
 		<envelope2
 			attack="0xE6666654"
 			decay="0xE6666654"
@@ -190,6 +187,14 @@
 				amount="0x2A3D7094" />
 			<patchCable
 				source="y"
+				destination="lpfFrequency"
+				amount="0x19999990" />
+			<patchCable
+				source="velocity"
+				destination="env1Attack"
+				amount="0xF5C28F5C" />
+			<patchCable
+				source="y"
 				destination="env1Release"
 				amount="0x3FFFFFFF" />
 			<patchCable
@@ -202,10 +207,6 @@
 						amount="0x2CCCCCCC" />
 				</depthControlledBy>
 			</patchCable>
-			<patchCable
-				source="velocity"
-				destination="env1Attack"
-				amount="0xF5C28F5C" />
 		</patchCables>
 		<equalizer
 			bass="0x00000000"
@@ -216,7 +217,7 @@
 	<arpeggiator
 		mode="off"
 		numOctaves="2"
-		syncLevel="5"
+		syncLevel="7"
 		syncType="0"
 		arpMode="off"
 		noteMode="up"
@@ -235,7 +236,7 @@
 		<modKnob controlsParam="volumePostReverbSend" patchAmountFromSource="compressor" />
 		<modKnob controlsParam="pitch" patchAmountFromSource="lfo1" />
 		<modKnob controlsParam="lfo1Rate" />
-		<modKnob controlsParam="env1Release" patchAmountFromSource="random" />
+		<modKnob controlsParam="portamento" />
 		<modKnob controlsParam="stutterRate" />
 		<modKnob controlsParam="bitcrushAmount" />
 		<modKnob controlsParam="sampleRateReduction" />
